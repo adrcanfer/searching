@@ -17,7 +17,7 @@ public class AliexpressResource {
 		String name2 = URLEncoder.encode(name, "UTF-8");
 		String page2 = URLEncoder.encode(page, "UTF-8");
 		String url = "http://gw.api.alibaba.com/openapi/param2/2/"
-				+ "portals.open/api.listPromotionProduct/85192?fields="
+				+ "portals.open/api.listPromotionProduct/[api_key]?fields="
 				+ "productTitle,productUrl,imageUrl,originalPrice,salePrice,localPrice&pageNo="+page2+"&localCurrency=EUR&languaje=espageSize=10&keywords="+name2;
 
 		ClientResource cr = new ClientResource(url);
