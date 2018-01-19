@@ -24,7 +24,7 @@ public class EbayResources {
 		String name2 = URLEncoder.encode(name, "UTF-8");
 		String page2 = URLEncoder.encode(page, "UTF-8");
 		String url = "https://svcs.ebay.com/services/search/FindingService/v1?SECURITY"
-				+ "-APPNAME=AdrinCan-dfg-PRD-709141381-35de4f48&OPERATION-NAME=findItems"
+				+ "-APPNAME=[APP_NAME]&OPERATION-NAME=findItems"
 				+ "ByKeywords&SERVICE-VERSION=1.0.0&RESPONSE-DATA-FORMAT=JSON"
 				+ "&REST-PAYLOAD&keywords="+name2+"&pagination"
 				+ "Input.entriesPerPage=10&paginationInput.pageNumber="+page2+"&GLOBAL-ID=EBAY-US&siteid=0";
