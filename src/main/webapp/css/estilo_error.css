@@ -1,0 +1,22 @@
+
+p, a{
+	font-family: Arial;
+	font-size: 17px;
+}
+
+p a{
+	text-decoration: none;
+}
+p a:hover{
+	font-style: oblique;
+	color: red;
+}
+
+h1{
+	font-size: 35px;
+}
+.error{
+	margin: 20px;
+}
+
+

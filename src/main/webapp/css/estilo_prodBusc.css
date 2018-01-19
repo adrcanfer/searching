@@ -1,0 +1,119 @@
+.cajaProducto{
+	width: 100%;
+	max-width: 1000px;
+	float: left;
+	border:1px solid rgb(200,200,200);
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	padding: 10px;
+	background-color: #fff;
+	position: relative;
+}
+.cajaProducto:hover{
+	 box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
+	 transition: 0.4s;
+}
+#Imagen:hover{
+	border: 2px solid rgb(128,128,128);
+}
+.precio{
+	width: 200px;
+	position: absolute;
+	left: 270px;
+	top: 60px;
+}
+.proveedor{
+	width: 155px;
+	position: absolute;
+	left: 270px;
+	top: 90px;
+}
+#Imagen{
+	float: left;
+	border: 2px solid rgb(200,200,200);
+}
+.titulo{
+	max-width: 550px;
+	width: 100%;
+	position: absolute;
+	left: 270px;
+}
+.titulo a{
+	text-decoration: none;
+	color: rgb(0,0,255);
+}
+.titulo a:hover{
+	color: rgba(255,0,0,0.7);
+}
+.botonGuardar{
+	width: 150px;
+	position: absolute;
+	left: 270px;
+	top: 125px;
+}
+.botonGuardar a{
+	text-decoration: none;
+	color: rgb(0,0,255);
+	font-weight: bold;
+	transition:0.3s;
+}
+.botonGuardar a:hover{
+	color: rgba(0,0,255,0.6);
+}
+.enlaces{
+	width: 100%;
+	max-width: 1000px;
+	float: left;
+	border:1px solid rgb(200,200,200);
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	padding: 10px;
+	background-color: #fff;
+	position: relative;
+}
+#anterior{
+	text-decoration: none;
+	float: left;
+	margin-right: 20px;
+	border-radius: 4px;
+}
+#anterior:hover{
+	color: rgb(0,0,80);
+}
+.enlaces p{
+	font-weight: bold;
+	margin-right: 20px;
+	float: left;
+}
+#siguiente{
+	text-decoration: none;
+	float: left;
+	border-radius: 5px;
+}
+#siguiente:hover{
+	color: rgb(0,0,80);
+}
+
+
+
+@media only screen and (max-width: 1065px){
+	
+	.enlaces,.cajaProducto{
+		width: 100%;
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 835px){
+	
+	.titulo,.precio,.botonGuardar,.proveedor{
+		width: 100%;
+		float: none;
+		position: static;
+	}
+}
+
+
+

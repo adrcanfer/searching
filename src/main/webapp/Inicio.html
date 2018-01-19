@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>Searching</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<link rel="shortcut icon" href="css/icono_buscador.png">
+		
+		<link rel="stylesheet" type="text/css" href="css/Estilo_inicio.css"/>
+		<link rel="stylesheet" type="text/css" href="css/estilo_comun.css"/>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+
+	<body>
+	
+	
+       
+       <header><h1>SEARCHING</h1></header>
+       <p>Busque y encuentre cualquier producto que deseé.</p>
+        
+            <form method="post" action="/searchController" >
+                <input class="buscador" type="text" id="query" name="query" required placeholder="Buscar..." value=""/>
+                <input class="botonBuscar"  type="submit" id="boton" name="boton" value="Buscar"/>
+            </form>
+            
+     
+            <div class="cajaBoton">
+            	<button>
+                	<a class="botonFav" href="/googleDriveListing">Productos favoritos</a>
+            	</button>
+      		</div>
+                
+            
+            
+        <footer>&copy; AISS 2017, Industrias <em>CONRO</em>, Tu industria de confianza.</footer>
+        
+    </body>
+</html>
